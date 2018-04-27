@@ -17,6 +17,7 @@ public class Author {
     private Set<Book> books = new HashSet<>();
 
     public Author() {
+        System.out.println("Init Author obj.");
     }
 
     public Author(String firstName, String lastName) {
