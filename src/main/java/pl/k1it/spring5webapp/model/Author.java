@@ -18,6 +18,7 @@ public class Author {
 
     public Author() {
         System.out.println("Init Author obj.");
+        System.out.println("Zmiana B-1");
     }
 
     public Author(String firstName, String lastName) {
